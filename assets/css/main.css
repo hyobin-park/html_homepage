@@ -706,6 +706,7 @@ section,
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: 'Pretendard-Regular';
 }
 
 .resume .resume-item {
@@ -717,11 +718,12 @@ section,
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 10px;
+  font-family: 'Pretendard-Regular';
 }
 
 .resume .resume-item h5 {
@@ -738,6 +740,7 @@ section,
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-family: 'Pretendard-Regular';
 }
 
 .resume .resume-item:last-child {
@@ -1454,10 +1457,24 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-@font-face {
+/* @font-face {
   font-family: 'GangwonEdu_OTFBoldA';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+} */
+
+@font-face {
+  font-family: 'KCC-Hanbit';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
